@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: #00818a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+.intro, .links, .contact-info, .contact-form {
+  margin-bottom: 30px;
+}
+
+.bio button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #00818a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bio button:hover {
+  background-color: #0d7d7d;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Contact Form Styling */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc4c4;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #00818a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
