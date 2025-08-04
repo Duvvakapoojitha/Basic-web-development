@@ -32,11 +32,6 @@ waste_detection/
 - CSS3
 - JavaScript (vanilla)
 
----
-
-## 📷 Live Demo
-
-No live link yet. You can preview locally by opening `index.html` in your browser.
 
 ---
 
